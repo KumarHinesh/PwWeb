@@ -1,6 +1,7 @@
-package com.vpt.pw.demo.dtos;
+package com.vpt.pw.demo.dtos.crf2DTO;
 
 
+import com.vpt.pw.demo.dtos.PregnantWomanDTO;
 import com.vpt.pw.demo.model.FormCrf2.MuacCrf2;
 import com.vpt.pw.demo.model.FormCrf2.PwHeightCrf2;
 import com.vpt.pw.demo.model.FormCrf2.PwWeightCrf2;

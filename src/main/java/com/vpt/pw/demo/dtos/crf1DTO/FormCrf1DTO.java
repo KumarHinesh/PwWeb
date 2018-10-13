@@ -1,4 +1,8 @@
-package com.vpt.pw.demo.dtos;
+package com.vpt.pw.demo.dtos.crf1DTO;
+
+import com.vpt.pw.demo.dtos.PregnantWomanDTO;
+import com.vpt.pw.demo.dtos.TeamDTO;
+import com.vpt.pw.demo.dtos.UltrasoundExaminationDTO;
 
 import java.util.List;
 

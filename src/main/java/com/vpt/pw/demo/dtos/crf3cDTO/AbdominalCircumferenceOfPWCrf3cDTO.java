@@ -1,7 +1,8 @@
-package com.vpt.pw.demo.dtos;
+package com.vpt.pw.demo.dtos.crf3cDTO;
 
 
-public class MuacCrf2DTO {
+public class AbdominalCircumferenceOfPWCrf3cDTO {
+
 
     private Integer id;
     private Float reader1;

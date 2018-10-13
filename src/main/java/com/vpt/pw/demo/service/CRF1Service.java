@@ -2,8 +2,8 @@ package com.vpt.pw.demo.service;
 
 
 import com.vpt.pw.demo.Constants.ConstantValues;
-import com.vpt.pw.demo.dtos.FormCrf1DTO;
 import com.vpt.pw.demo.dtos.UltrasoundExaminationDTO;
+import com.vpt.pw.demo.dtos.crf1DTO.FormCrf1DTO;
 import com.vpt.pw.demo.model.*;
 import com.vpt.pw.demo.model.FormCrf1.FormCrf1;
 import com.vpt.pw.demo.model.FormCrf1.UltrasoundExamination;

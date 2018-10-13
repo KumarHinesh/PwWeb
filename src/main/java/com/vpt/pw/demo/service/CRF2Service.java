@@ -1,7 +1,7 @@
 package com.vpt.pw.demo.service;
 
-import com.vpt.pw.demo.dtos.FormCrf2DTO;
 import com.vpt.pw.demo.dtos.PregnantWomanDTO;
+import com.vpt.pw.demo.dtos.crf2DTO.FormCrf2DTO;
 import com.vpt.pw.demo.exceptions.RestException;
 import com.vpt.pw.demo.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;

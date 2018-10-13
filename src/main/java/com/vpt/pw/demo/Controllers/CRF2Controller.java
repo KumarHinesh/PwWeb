@@ -1,6 +1,6 @@
 package com.vpt.pw.demo.Controllers;
 
-import com.vpt.pw.demo.dtos.FormCrf2DTO;
+import com.vpt.pw.demo.dtos.crf2DTO.FormCrf2DTO;
 import com.vpt.pw.demo.service.CRF2Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

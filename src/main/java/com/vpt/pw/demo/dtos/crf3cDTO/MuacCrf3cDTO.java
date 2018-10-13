@@ -1,14 +1,13 @@
-package com.vpt.pw.demo.dtos;
+package com.vpt.pw.demo.dtos.crf3cDTO;
 
-public class PwWeightCrf2DTO {
 
+public class MuacCrf3cDTO {
     private Integer id;
     private Float reader1;
     private Float reader2;
     private String readerCode1;
     private String readerCode2;
     private Float difference;
-
 
     public Integer getId() {
         return id;

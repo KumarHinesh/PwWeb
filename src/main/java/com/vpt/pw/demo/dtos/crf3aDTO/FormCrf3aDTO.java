@@ -1,5 +1,8 @@
-package com.vpt.pw.demo.dtos;
+package com.vpt.pw.demo.dtos.crf3aDTO;
 
+
+import com.vpt.pw.demo.dtos.PregnantWomanDTO;
+import com.vpt.pw.demo.dtos.TeamDTO;
 
 public class FormCrf3aDTO {
 

@@ -1,12 +1,8 @@
-package com.vpt.pw.demo.model.FormCrf5b;
+package com.vpt.pw.demo.dtos.crf5bDTO;
 
-import org.hibernate.annotations.GenericGenerator;
+import com.vpt.pw.demo.model.FormCrf5b.FormCrf5b;
 
-import javax.persistence.*;
-
-@Entity
-@Table(name = "FORM_CRF_5B_DETAILS")
-public class FormCrf5bDetails {
+public class FormCrf5bDetailsDTO {
 
 
     /*public FormCrf5bDetails(FormCrf5bDetails detail, FormCrf5b mForm) {
@@ -42,95 +38,32 @@ public class FormCrf5bDetails {
 
     }*/
 
-    @Id
-    @GeneratedValue(
-            strategy = GenerationType.AUTO,
-            generator = "native"
-    )
-    @GenericGenerator(
-            name = "native",
-            strategy = "native"
-    )
-    @Column(name = "form_crf_5b_details_id")
     private Integer id;
-
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "form_crf_5b_id")
     private FormCrf5b form;
-
-    @Column(name = "pw_crf5b_22_from")
     private String q22From;
-
-    @Column(name = "pw_crf5b_22_to")
     private String q22To;
-
-    @Column(name = "pw_crf5b_23")
     private String q23;
-
-    @Column(name = "pw_crf5b_24")
     private String q24;
-
-    @Column(name = "pw_crf5b_25")
     private String q25;
-
-    @Column(name = "pw_crf5b_26")
     private String q26;
-
-    @Column(name = "pw_crf5b_27")
     private String q27;
-
-    @Column(name = "pw_crf5b_28")
     private String q28;
-
-    @Column(name = "pw_crf5b_29")
     private String q29;
-
-    @Column(name = "pw_crf5b_30")
     private String q30;
-
-    @Column(name = "pw_crf5b_31")
     private String q31;
-
-    @Column(name = "pw_crf5b_32")
     private String q32;
-
-    @Column(name = "pw_crf5b_33")
     private String q33;
-
-    @Column(name = "pw_crf5b_34")
     private String q34;
-
-    @Column(name = "pw_crf5b_35")
     private String q35;
-
-    @Column(name = "pw_crf5b_36")
     private String q36;
-
-    @Column(name = "pw_crf5b_37")
     private String q37;
-
-    @Column(name = "pw_crf5b_38")
     private String q38;
-
-    @Column(name = "pw_crf5b_39")
     private String q39;
-
-    @Column(name = "pw_crf5b_40")
     private String q40;
-
-    @Column(name = "pw_crf5b_41")
     private String q41;
-
-    @Column(name = "pw_crf5b_42")
     private String q42;
-
-    @Column(name = "pw_crf5b_43")
     private String q43;
-
-    @Column(name = "pw_crf5b_44")
     private String q44;
-
-    @Column(name = "pw_crf5b_45")
     private String q45;
 
     public Integer getId() {

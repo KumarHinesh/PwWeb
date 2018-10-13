@@ -1,42 +1,14 @@
-package com.vpt.pw.demo.model.FormCrf3c;
+package com.vpt.pw.demo.dtos.crf2DTO;
 
-import org.hibernate.annotations.GenericGenerator;
+public class PwWeightCrf2DTO {
 
-import javax.persistence.*;
-
-@Entity
-@Table(name = "ABDOMINALCIRCUMFERENCE_CRF_3C")
-public class AbdominalCircumferenceOfPWCrf3c {
-
-    @Id
-    @GeneratedValue(
-            strategy = GenerationType.AUTO,
-            generator = "native"
-    )
-    @GenericGenerator(
-            name = "native",
-            strategy = "native"
-    )
-    @Column(name = "reading_id")
     private Integer id;
-
-    @Column(name = "reader1")
     private Float reader1;
-
-    @Column(name = "reader2")
     private Float reader2;
-
-    @Column(name = "code_of_reader_1")
     private String readerCode1;
-
-    @Column(name = "code_of_reader_2")
     private String readerCode2;
-
     private Float difference;
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "form_crf_3c_id")
-    private FormCrf3c form;
 
     public Integer getId() {
         return id;
@@ -68,14 +40,6 @@ public class AbdominalCircumferenceOfPWCrf3c {
 
     public void setDifference(Float difference) {
         this.difference = difference;
-    }
-
-    public FormCrf3c getForm() {
-        return form;
-    }
-
-    public void setForm(FormCrf3c form) {
-        this.form = form;
     }
 
     public String getReaderCode1() {
